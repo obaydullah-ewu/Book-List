@@ -53,7 +53,7 @@ class UI {
             target.parentElement.parentElement.remove();
             // console.log(target.parentElement.previousElementSibling.textContent.trim());
             Store.removeBook(target.parentElement.previousElementSibling.textContent.trim());
-            UI.showAlert('Book Removed', 'success');
+            UI.showAlert('Book Removed', 'danger');
         }
     }
 }
